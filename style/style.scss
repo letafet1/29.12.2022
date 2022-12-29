@@ -1,0 +1,128 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#Price {
+    width: 100%;
+    min-height: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    display:inline-block;
+    
+
+
+    .cards {
+        width: 250px;
+        height: auto;
+        margin-right: 15px;
+        background-color: #fff;
+        margin: 0 auto;
+        display:inline-block;
+        margin-top: 300px;
+        border: 2px solid;
+        border-color: rgb(25, 59, 59);
+        border-radius: 6px;
+
+        &:hover{
+            background-color: rgb(28, 15, 99);
+            color: #fff;
+            scale: 1.1;
+            &__list{
+                color: white;
+            }
+            cursor: pointer;
+            transition: all linear 0.30s;
+     
+        }
+
+
+        &__type {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        &__info {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            opacity: unset;
+            color: rgb(92, 90, 90);
+        }
+
+        &__price {
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: rgb(35, 84, 134);
+            display: inline-block;
+        }
+
+        &__kind {
+            font-size: 20px;
+            color: rgb(35, 84, 134);
+            display: inline-block;
+        }
+
+        &__fortime {
+            font-size: 20px;
+            color: rgb(35, 84, 134);
+            display: inline-block;
+        }
+
+        &__list {
+            font-size: 20px;
+            color: rgb(19, 20, 20);
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+
+        &__botton {
+            width: 250px;
+            height: 50px;
+            background: rgb(36, 124, 201);
+            border-radius: 3px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 20px;
+
+            a{
+                font-size: 20px;
+                letter-spacing: 1px;
+                color: #FFF;
+            }
+        }
+    }
+}
